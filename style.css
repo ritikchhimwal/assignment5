@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html,body{
+    background-color: black;
+    color: white;
+    font-family: 'Gilroy','Roboto';
+}
+
+h1{
+    font-size: 24px;
+    
+}
+
+.main{
+    padding-left: 5%;
+    width: 90%;
+}
+
+.mainInputDiv{
+    gap: 10px;
+}
+
+.mainInputDiv h1{
+    margin-bottom: 0px;
+    margin-top: 2em;
+}
+
+.form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+    height: 10em;
+}
+
+.inputContainer{
+    border: none;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.form input{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    width: 95%;
+    height: 2em;
+}
+
+#addUserButton{
+    width: 15%;
+    height: 2.5em; 
+    margin-bottom: 10px;
+}
+
+.mainMessageDiv{
+    height: 5em;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    justify-content: center;
+
+}
+
+.success{
+    color: limegreen;
+}
+
+.failure{
+    color: red;
+}
+
+
+.mainOutputDiv{}
+
+#placeholder{
+    color: grey;
+}
+
+.employeeDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.employeeAddedDiv{
+    display: flex;
+    gap: 1em;
+    margin: 10px 0px;
+    align-items: center;
+}
+
+.employeeInfoDiv{
+    display: flex;
+    gap: 1em;
+    width: fit-content;
+    padding: 0px 10px; 
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.deleteEmployeeButton{
+    marigin-top: 15px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 50px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>EmployeeData</title>
+</head>
+<body>
+    
+    <div class="mainInputDiv main">
+        <h1>New Employess</h1>
+        <form class="form">
+            <div class="inputContainer">
+                <label class="inputLabel">Enter Name</label>
+                <input class="input" type="text" id="inputName">
+            </div>
+
+            <div class="inputContainer">
+                <label class="inputLabel">Enter Profession</label>
+                <input class="input" type="text" id="inputProfession">
+            </div>
+
+            <div class="inputContainer">
+                <label class="inputLabel">Enter Age</label>
+                <input class="input" type="Number" min="18" max="65" id="inputAge">
+            </div>
+        </form>
+        <button id="addEmployeeButton">Add User</button>
+    </div>
+
+    <div class="mainMessageDiv main">
+        <p id="failure" class="failure">Error : Please Make sure All the fields are filled before adding in an employee !</p>
+        <p id="success" class="success">Success : Employee Added!</p>
+    </div>
+
+    <div class="mainOutputDiv main">
+        <h1>Added Employees</h1>
+        <div id="placeholder">You have 0 Employees</div>
+        <ol id="list" class="employeesDiv" type="none"></ol>
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
